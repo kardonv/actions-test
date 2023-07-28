@@ -1,6 +1,6 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} pushed new changes to ${{ github.head_ref }} 🚀
-on: [push]
+on: [pull_request_target]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
